@@ -7,7 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
     /* ================================= 
   Typography
@@ -19,7 +19,7 @@ select,
 textarea {
 	color: #404040;
 	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.5;
 }
 
@@ -50,12 +50,42 @@ a {
 .header {
 	padding: 1.5em 0;
 	background: #3acec2;
+  text-align: center;
+}
+h1 {
+  animation: color-change 10s infinite;
+}
+@keyframes color-change {
+  0% { color: rgb(53, 41, 41); }
+  25% { color: rgb(34, 35, 139); }
+  50% { color: rgb(185, 26, 248); }
+  75% { color: rgb(34, 35, 139); }
+  100% { color: rgb(53, 41, 41); }
 }
 
-.main-footer { 
+.apodContainer {
+  text-align: center;
+  
+}
+.apod-title {
+  background: #3acec2;
+}
+.apod-date-copyright {
+  display:flex;
+  justify-content: space-between;
+  padding: .4rem 3rem;
+  background: #3acec2;
+}
+.apodImage{
+  align-self: center;
+  margin: .4rem;
+}
+footer { 
 	text-align: center;
-	padding: 2em 0;
+	padding: 1.3em 0;
 	background: #d9e4ea;
+  font-size: 1.4rem;
+  
 }
 
 /* ================================= 
