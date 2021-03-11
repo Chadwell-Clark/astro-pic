@@ -53,14 +53,14 @@ a {
   text-align: center;
 }
 h1 {
-  animation: color-change 10s infinite;
+  animation: color-change 12s infinite;
 }
 @keyframes color-change {
-  0% { color: rgb(53, 41, 41); }
-  25% { color: rgb(34, 35, 139); }
-  50% { color: rgb(185, 26, 248); }
-  75% { color: rgb(34, 35, 139); }
-  100% { color: rgb(53, 41, 41); }
+  0% { color: rgb(245, 87, 87); }
+  25% { color: rgb(185, 26, 248); }
+  50% { color: rgb(34, 35, 139); }
+  75% { color: rgb(185, 26, 248); }
+  100% { color: rgb(245, 87, 87); }
 }
 
 .apodContainer {
